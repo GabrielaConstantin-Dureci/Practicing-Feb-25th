@@ -1,0 +1,39 @@
+library("lawstat")
+library("ggfortify")
+library("lmtest")
+library("DataCombine")
+library("gvlma")
+library(tidyverse)
+
+
+install.packages(ds4ling)
+
+
+mod1 <- lm(mpg ~ wt, data = mtcars)
+mod2 <- lm(dist ~ speed, data = cars[1:20, ])
+
+# 1.
+# The regression model is linear in parameters
+# Eyeball it
+mtcars %>% 
+  ggplot(., aes(x=wt, y=mpg)) +
+  geom_point() 
+
+
+
+#2.
+
+mean(mod1$residuals)
+summary(mod1$residuals)
+summary(mod2$residuals)
+
+
+
+
+
+#3
+
+ggplot2:: autoplot(mod1, which = c(1,3))
+
+
+
