@@ -3,7 +3,7 @@
     "path": "C:/Users/gcons/Desktop/Practicing Feb 25th/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "796754334",
+    "hash": "1966631291",
     "contents": "",
     "dirty": false,
     "created": 1614266552911.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled2",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "15,5",
+        "cursorPosition": "15,8",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1614268001,
+    "lastKnownWriteTime": 1614268221,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1614268001414,
+    "last_content_update": 1614268221715,
     "read_only": false,
     "read_only_alternatives": []
 }
